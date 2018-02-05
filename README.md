@@ -15,6 +15,21 @@ $ go get -u github.com/Preetam/aws-mfa-cli
 
 Binaries are available on the [Releases](https://github.com/Preetam/aws-mfa-cli/releases) page.
 
+## Usage
+
+```
+$ aws-mfa-cli -h
+Usage of aws-mfa-cli:
+  -profile string
+    	Profile name (default "default")
+  -profile-mfa string
+    	Temporary MFA profile name (default "profile-mfa")
+  -region string
+    	AWS Region (default "us-east-1")
+  -token string
+    	MFA token
+```
+
 ## License
 
 MIT
